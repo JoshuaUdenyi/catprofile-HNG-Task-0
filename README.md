@@ -1,29 +1,22 @@
-Here’s your **README.md** formatted cleanly and correctly in Markdown 👇
-
----
-
-````markdown
 # 🐱 CatProfile API
 
-A simple Spring Boot REST API built for the **Backend Wizards Stage 0 Task**.  
+A simple Spring Boot REST API built for the HNG Stage 0 Task.  
 It exposes a `/me` endpoint that returns profile information along with a random cat fact fetched from the **Cat Facts API**.
 
----
 
 ## 🚀 Features
 
-- RESTful **GET** endpoint at `/me`
+- RESTful GET endpoint at `/me`
 - Returns:
-  - **Status message:** `success`
-  - **User details:** `email`, `name`, `stack`
-  - **Dynamic UTC timestamp** (ISO 8601)
-  - **Random cat fact** from [`https://catfact.ninja/fact`](https://catfact.ninja/fact)
+  - Status message: `success`
+  - User details: `email`, `name`, `stack`
+  - Dynamic UTC timestamp (ISO 8601)
+  - Random cat fact from [`https://catfact.ninja/fact`](https://catfact.ninja/fact)
 - Graceful error handling
 - Logging with **SLF4J**
 - Unit test with **MockMvc**
 - Ready for deployment on **PXXL App**
 
----
 
 ## 🧩 Tech Stack
 
@@ -33,7 +26,6 @@ It exposes a `/me` endpoint that returns profile information along with a random
 - 💡 Lombok  
 - 🧪 JUnit 5  
 
----
 
 ## ⚙️ How to Run Locally
 
@@ -41,7 +33,7 @@ It exposes a `/me` endpoint that returns profile information along with a random
    ```bash
    git clone https://github.com/JoshuaUdenyi/catprofile.git
    cd catprofile
-````
+
 
 2. **Build the project**
 
@@ -99,5 +91,3 @@ It exposes a `/me` endpoint that returns profile information along with a random
 **Udenyi Egboche Joshua**
 📧 [joethedev90@gmail.com](mailto:joethedev90@gmail.com)
 🔗 [GitHub: JoshuaUdenyi](https://github.com/JoshuaUdenyi)
-
-```
