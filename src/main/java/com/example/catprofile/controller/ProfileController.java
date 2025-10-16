@@ -35,7 +35,7 @@ public class ProfileController {
         String fact = catFactService.getCatFact();
         ProfileResponse response = new ProfileResponse(
                 "success",
-                new User(name, email, stack),
+                new User(email, name, stack),
                 Instant.now().toString(),
                 fact
         );
